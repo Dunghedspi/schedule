@@ -1,0 +1,56 @@
+div.sideBarContainer {
+    display: flex;
+    flex-flow: column;
+    padding: 10px 10px 0px 20px;
+}
+div.logo-box a {
+    display: flex;
+    flex: row;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+div.logo-box img {
+    max-width: 40px;
+    height: auto;
+    padding-right: 15px;
+}
+div.logo-box h2 {
+    font-size: 18px;
+}
+img.userImage {
+    width: 40px;
+    border-radius: 50px;
+    padding: 0 10px 0 0;
+}
+div.user-account {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+div.dropmenu {
+    display: flex;
+    flex-direction: column;
+}
+ul.menu {
+    display: flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    margin: 50px 0 0 0;
+}
+ul.menu li:first-child {
+    color: #d3d3d3;
+    cursor: default;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul.menu li:not(:first-child) {
+    max-height: 50px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+ul.menu li:not(:first-child) a:hover {
+    color: green;
+}

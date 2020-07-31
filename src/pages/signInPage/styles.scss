@@ -1,0 +1,80 @@
+@import "https: //stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://img2.thuthuatphanmem.vn/uploads/2019/01/20/anh-background-den-dep-nhat_034510812.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: initial;
+    height: 100vh;
+}
+.signup-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.signup-box h1 {
+    float: left;
+    border-bottom: 3px solid green;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: 30px;
+    color: white;
+}
+.text-box {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid green;
+}
+.text-box i {
+    float: left;
+    width: 26px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 27px;
+}
+.text-box input {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 2px;
+    color: white;
+    font-size: 18px;
+    float: left;
+    margin: 5px;
+}
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 2px;
+    background: none;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.btn-submit:hover {
+    border-color: yellow;
+}
+.btn-submit:active {
+    background-color: gray;
+}
+.signup-box a {
+    float: right;
+    margin-top: 15px;
+    color: aqua;
+    transition: ease-in 0.2s;
+}
+.signup-box a:hover {
+    color: green;
+}

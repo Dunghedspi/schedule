@@ -1,0 +1,71 @@
+.headerContainer {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 2px solid #ececec;
+}
+.search-box {
+    padding: 20px;
+    flex: 50%;
+    max-width: 50%;
+}
+.navbar-menu {
+    flex: 50%;
+    max-width: 50%;
+    display: flex;
+    padding: 20px;
+}
+
+button.btn-search {
+    background: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input.form-control {
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    font-size: 15px;
+    background: inherit;
+    width: 75%;
+}
+ul.navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+ul.navbar-nav > li {
+    flex: 10%;
+    max-width: 10%;
+    padding: 20px;
+    padding: 10px 5px;
+    cursor: pointer;
+    text-align: center;
+}
+ul.navbar-nav > li.usericon {
+    position: relative;
+}
+div.dropdown_user {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 5px;
+    top: 34px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+div.dropdown_user a {
+    padding: 10px 0;
+    color: rgb(131, 130, 130);
+}
+div.dropdown_user a:hover {
+    color: rgb(124, 212, 193);
+}

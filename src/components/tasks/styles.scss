@@ -1,0 +1,128 @@
+a {
+    text-decoration: none;
+}
+div.modal_container {
+    width: 100%;
+    height: inherit;
+}
+div.modal_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+div.block_header h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8d8e8e;
+}
+div.main_box {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px 20px 0px 15px;
+}
+div.block_header span {
+    font-size: 12px;
+    color: #adaeb0;
+}
+div.block_header {
+    flex: 100%;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+div.main_box div.card {
+    flex: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+div.main_box div.card div.nav {
+    flex: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #202223;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+}
+div.main_box div.card div.nav div.nav_menu {
+    flex: 80%;
+    max-width: 80%;
+}
+div.main_box div.card div.nav div.add_box {
+    flex: 20%;
+    max-width: 20%;
+}
+div.main_box div.card div.nav ul.nav_bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+}
+ul.nav_bar li.nav-item {
+    padding: 8px;
+}
+ul.nav_bar li.nav-item a {
+    color: #f7f9f9;
+}
+ul.nav_bar li.active a {
+    color: #72b440;
+}
+div.add_box {
+    display: flex;
+    justify-content: flex-end;
+}
+div.add_box button.btn_add {
+    border: none;
+    padding: 3px 10px;
+    background-color: #72b440;
+    min-height: 28px;
+    outline: none;
+    cursor: pointer;
+}
+table.table_tasks {
+    display: block;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+    height: 60vh;
+}
+table.table_tasks tbody {
+    display: flex;
+    flex-flow: column nowrap;
+    height: auto;
+}
+table.table_tasks tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+div.findtask_box {
+    width: 100%;
+    padding: 15px 30px;
+    position: relative;
+    border: 1px solid #dddddd;
+}
+div.findtask_box i {
+    position: absolute;
+    left: 35px;
+    top: 19px;
+    color: #828586;
+}
+div.findtask_box input {
+    background: inherit;
+    padding: 9px 0px 9px 30px;
+    width: 20%;
+    height: 27px;
+    outline: none;
+    border: 1px solid #87898a;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+div.findtask_box input:focus {
+    width: 70%;
+}

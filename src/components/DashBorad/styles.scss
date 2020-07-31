@@ -1,0 +1,50 @@
+div.dashboard_box {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px 20px 0px 15px;
+}
+div.dashboard_box div.card {
+    display: flex;
+    flex-flow: column wrap;
+}
+div.dashboard_box div.card div.card_header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202223;
+    padding: 10px 20px;
+}
+div.card div.card_header div.btn_group {
+    flex: 80%;
+    max-width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+}
+div.card div.card_header div.btn_group button {
+    outline: none;
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding: 1px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+div.card div.card_header div.btn_group button.actived {
+    color: #76b440;
+}
+div.card div.card_header div.dashboard {
+    flex: 20%;
+    max-width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+div.card div.card_header div.dashboard button.btn_todolist {
+    border: none;
+    padding: 3px 20px;
+    background-color: #72b440;
+    min-height: 28px;
+    outline: none;
+    cursor: pointer;
+}

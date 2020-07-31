@@ -1,0 +1,46 @@
+tr.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+    border-bottom: 2px solid #ececec;
+}
+td.column1 {
+    display: flex;
+    flex: 90%;
+    max-width: 90%;
+    flex-flow: column nowrap;
+}
+td.column1 h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c4c4e;
+}
+td.column1 p {
+    font-size: 15px;
+    color: #808081;
+}
+td.column2 {
+    flex: 10%;
+    max-width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+td.column2 button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+}
+td.column2 button i {
+    font-size: 23px;
+}
+button.btn_edit i {
+    color: #1f718a;
+}
+button.btn_cancel i {
+    color: red;
+}

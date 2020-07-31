@@ -1,0 +1,51 @@
+div.Modal_box {
+    padding: 20px;
+}
+div.Modal_box form.form_box {
+    display: flex;
+    flex-flow: column nowrap;
+    color: black;
+}
+div.Modal_box form.form_box div.text_box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 5px 10px;
+}
+div.Modal_box form.form_box div.text_box label {
+    flex: 20%;
+    max-width: 20%;
+}
+div.Modal_box form.form_box div.text_box input {
+    outline: none;
+    flex: 80%;
+    max-width: 80%;
+    border-bottom: 1px solid rgb(65, 64, 64);
+    padding: 5px 10px;
+}
+div.btn_group_modal {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px 0px 0px;
+}
+div.btn_group_modal button {
+    outline: none;
+    padding: 15px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px #999;
+    border-radius: 9px;
+}
+div.btn_group_modal button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
+#btn_success {
+    background-color: rgb(132, 236, 132);
+}
+#btn_cancel {
+    background-color: rgb(179, 176, 176);
+}
